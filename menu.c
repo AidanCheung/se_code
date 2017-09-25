@@ -15,6 +15,30 @@ int main()
 		{
 			exit(0);
 		}
+		else if(!strcmp(cmd,"ls"))
+		{
+			printf("This is ls cmd!\n");
+		}
+		else if(!strcmp(cmd,"pwd"))
+		{
+			printf("This is pwd cmd!\n");
+		}
+		else if(!strcmp(cmd,"ps"))
+		{
+			printf("This is ps cmd!\n");
+		}
+		else if(!strcmp(cmd,"vi"))
+		{
+			printf("This is vi cmd!\n");
+		}
+		else if(!strcmp(cmd,"sudo"))
+		{
+			printf("This is sudo cmd!\n");
+		}
+		else if(!strcmp(cmd,"mkdir"))
+		{
+			printf("This is mkdir cmd!\n");
+		}
 		else
 		{
 			printf("Wrong cmd!\n");
